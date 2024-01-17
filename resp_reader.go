@@ -8,6 +8,7 @@ import (
 	"strconv"
 )
 
+// redis protocol prefix
 const (
 	SIMPLE_STRING = '+'
 	BULK_STRING   = '$'
